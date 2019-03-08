@@ -22,7 +22,8 @@ public class MyLinkedList<E> {
             phead = node;
         }
     }
-    public Object getFirst() {
+
+    public E getFirst() {
         return phead.data;
     }
 

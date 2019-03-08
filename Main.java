@@ -6,6 +6,7 @@ public class Main {
         myLinkedList.addFirst("a");
         myLinkedList.addFirst("b");
         myLinkedList.addFirst("c");
+        System.out.println(myLinkedList.getFirst());
 
 
     }
